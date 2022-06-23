@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.oratakashi:AndroidViewBinding:3.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/591733d7cbfeb797a4aaa30866bf6d28/transformed/AndroidViewBinding-3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/44aeb9caaa2a339ed550bd48cfe2d723/transformed/AndroidViewBinding-3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/44aeb9caaa2a339ed550bd48cfe2d723/transformed/AndroidViewBinding-3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/44aeb9caaa2a339ed550bd48cfe2d723/transformed/AndroidViewBinding-3.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.oratakashi/AndroidViewBinding/3.1/64fac5ac48db2992ac9483ead652efd86b98c62c/AndroidViewBinding-3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

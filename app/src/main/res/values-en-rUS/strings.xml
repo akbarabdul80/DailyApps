@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daily Task</string>
+    <string name="title_tanggal">Date</string>
+    <string name="title_catatan">Note</string>
+    <string name="title_nama_aktivitas">Activity Name</string>
+    <string name="title_simpan">Save</string>
+    <string name="title_lupa_kata_sandi">Forget password</string>
+    <string name="title_daftar_akun">Don\'t have an account yet?</string>
+    <string name="title_tambah_list">Add List</string>
+    <string name="title_nama_label">Label Name</string>
+    <string name="title_tambah_label">Add Label</string>
+    <string name="title_all_task">All Task</string>
+    <string name="title_week">Tomorrow</string>
+    <string name="title_tomorrow">Tomorrow</string>
+    <string name="title_today">Today</string>
+    <string name="title_your_task">Your Task</string>
+</resources>

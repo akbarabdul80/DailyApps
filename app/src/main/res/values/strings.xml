@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Daily Task</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_add" translatable="false">Add</string>
+    <string name="title_todo" translatable="false">TO DO</string>
+    <string name="title_null" translatable="false">null</string>
+    <string name="title_foo" translatable="false">Lorem Ipsum</string>
+    <string name="title_labels" translatable="false">Labels</string>
+    <string name="title_your_task">Tugas Anda</string>
+    <string name="title_number" translatable="false">10</string>
+    <string name="title_today">Hari ini</string>
+    <string name="title_tomorrow">Besok</string>
+    <string name="title_week">Minggu ini</string>
+    <string name="title_tanggal">Tanggal</string>
+    <string name="title_catatan">Catatan</string>
+    <string name="title_nama_aktivitas">Nama Aktivitas</string>
+    <string name="title_simpan">Simpan</string>
+    <string name="title_activity_login" translatable="false">LoginActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="title_login" translatable="false">Login</string>
+    <string name="title_email" translatable="false">Email</string>
+    <string name="title_password" translatable="false">Password</string>
+    <string name="title_lupa_kata_sandi">Lupa kata sandi?</string>
+    <string name="title_daftar_akun">Belum punya akun?</string>
+    <string name="title_all_task">Semua Task</string>
+    <string name="title_tambah_list">Tambah List</string>
+    <string name="title_nama_label">Nama Label</string>
+    <string name="title_tambah_label">Tambah Label</string>
+    <string name="title_edit" translatable="false">Edit</string>
+    <string name="title_delete" translatable="false">Delete</string>
+    <string name="title_edit_label" translatable="false">Edit Label</string>
+    <string name="title_edit_task" translatable="false">Edit Task</string>
+</resources>

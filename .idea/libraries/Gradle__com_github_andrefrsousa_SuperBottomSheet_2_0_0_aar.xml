@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.andrefrsousa:SuperBottomSheet:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/30ae46ccdfbf26d33724b60323f97af1/transformed/SuperBottomSheet-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/30ae46ccdfbf26d33724b60323f97af1/transformed/SuperBottomSheet-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/30ae46ccdfbf26d33724b60323f97af1/transformed/SuperBottomSheet-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.andrefrsousa/SuperBottomSheet/2.0.0/e7a11dabea7e3125d5d59bd1f72bc5834a3ac3b6/SuperBottomSheet-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
