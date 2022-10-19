@@ -9,14 +9,14 @@ import androidx.work.WorkManager
 import com.papb.todo.data.model.task.DataTask
 import com.papb.todo.workmanager.NotifPengingatManager
 import com.papb.todo.workmanager.NotifPengingatManager.Companion.NOTIFICATION_WORK_PENYEMANGAT
-import java.text.SimpleDateFormat
-import java.time.format.DateTimeFormatter
 import java.util.*
 import java.util.concurrent.TimeUnit
 
 object ReminderUtils {
     fun workManagerPenyemangat(context: Context, dueDate: Calendar, dataTask: DataTask) {
         val currentDate = Calendar.getInstance()
+        dueDate.set(Calendar.SECOND, 0)
+
         if (dueDate.after(currentDate)) {
             val timeDiff = dueDate.timeInMillis - currentDate.timeInMillis
 
@@ -36,6 +36,8 @@ object ReminderUtils {
                     ExistingWorkPolicy.REPLACE,
                     dailyWorkRequest
                 )
+
+            Log.e("ReminderUtils", "workManagerPenyemangat: ${dataTask.id_task}")
         }
     }
 }

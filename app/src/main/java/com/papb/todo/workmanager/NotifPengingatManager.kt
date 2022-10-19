@@ -18,7 +18,6 @@ import com.papb.todo.R
 import com.papb.todo.ui.splash.SplashActivity
 
 class NotifPengingatManager(context: Context, params: WorkerParameters) : Worker(context, params) {
-    @RequiresApi(Build.VERSION_CODES.S)
     override fun doWork(): Result {
         val title = inputData.getString("title")
         val desc = inputData.getString("desc")
@@ -27,7 +26,6 @@ class NotifPengingatManager(context: Context, params: WorkerParameters) : Worker
         return Result.success()
     }
 
-    @RequiresApi(Build.VERSION_CODES.S)
     private fun sendNotification(id: Int, title: String, subtitle: String) {
         val intent = Intent(applicationContext, SplashActivity::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK

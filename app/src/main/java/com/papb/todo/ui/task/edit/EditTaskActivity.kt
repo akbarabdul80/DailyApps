@@ -73,8 +73,8 @@ class EditTaskActivity : AppCompatActivity() {
                                 myCalendar.set(Calendar.MINUTE, minute)
                                 etTanggal.setText(sdf.format(myCalendar.time))
                             },
-                            myCalendar.get(Calendar.HOUR), myCalendar.get(Calendar.MINUTE),
-                            false
+                            myCalendar.get(Calendar.HOUR_OF_DAY), myCalendar.get(Calendar.MINUTE),
+                            true
                         ).show()
 
 

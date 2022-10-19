@@ -67,7 +67,7 @@ class AddTaskActivity : AppCompatActivity() {
                                 etTanggal.setText(sdf.format(myCalendar.time))
                             },
                             myCalendar.get(Calendar.HOUR), myCalendar.get(Calendar.MINUTE),
-                            false
+                            true
                         ).show()
 
 

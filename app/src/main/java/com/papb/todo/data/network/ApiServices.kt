@@ -28,7 +28,7 @@ class ApiServices(val context: Context) {
         }
 
         val server =
-            "http://192.168.8.103:8081/api/"
+            "http://10.0.2.2:8080/api/"
         return Retrofit.Builder()
             .baseUrl(server)
             .client(client.build())
